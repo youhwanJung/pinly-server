@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: pinly # 서버 이름
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pinly # DB가 어디에 있는지
+    username: yuhwan # DB에 접속할 때 사용하는 아이디
+    password: # DB에 접속할 때 사용하는 비밀번호
+  jpa: # DB 관리 규칙
+    hibernate:
+      ddl-auto: update # 테이블이 없으면 알아서 만들어줘
+    show-sql: true # DB에서 뭘 넣고 뺐는지 기록 보여줘
+    open-in-view: false # 일 끝나면 DB 문 닫아
