@@ -1,4 +1,4 @@
-package io.github.youhwanjung.pinly
+package io.github.youhwanjung.pinly.pin
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

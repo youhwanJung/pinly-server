@@ -1,4 +1,4 @@
-package io.github.youhwanjung.pinly
+package io.github.youhwanjung.pinly.pin
 
 /**
  * 이 클래스는, API 응답 (Json) 모양을 어떻게 잡고 보낼지를 결정한다.

@@ -1,4 +1,4 @@
-package io.github.youhwanjung.pinly
+package io.github.youhwanjung.pinly.pin
 
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

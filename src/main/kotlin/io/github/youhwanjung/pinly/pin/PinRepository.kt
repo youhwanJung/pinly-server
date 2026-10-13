@@ -1,4 +1,4 @@
-package io.github.youhwanjung.pinly
+package io.github.youhwanjung.pinly.pin
 
 import org.springframework.data.jpa.repository.JpaRepository
 
