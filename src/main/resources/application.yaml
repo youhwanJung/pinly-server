@@ -10,3 +10,10 @@ spring:
       ddl-auto: update # 테이블이 없으면 알아서 만들어줘
     show-sql: true # DB에서 뭘 넣고 뺐는지 기록 보여줘
     open-in-view: false # 일 끝나면 DB 문 닫아
+  profiles:
+    active: dev #로컬 기본값. 운영에서는 환경변수 SPRING_PROFILES_ACTIVE로 덮는다.
+
+jwt:
+  secret: ${JWT_SECRET} #환경변수에서 JWT 도장을 읽는다.
+  access-expiration-ms: 3600000 # accessToken 1시간
+  refresh-expiration-ms: 1209600000 # 14일.
